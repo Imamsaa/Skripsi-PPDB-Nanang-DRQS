@@ -41,6 +41,33 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         ");
         $jalur = $resultjalur->fetch();
     }
+    $query = "SELECT DISTINCT asal_sekolah FROM data_siswa";
+    $sekolah = $conn->query($query);
+
+    // tempat lahir
+    $query2 = "SELECT DISTINCT tempat_lahir FROM data_siswa";
+    $tempat = $conn->query($query2);
+
+    $query3 = "SELECT DISTINCT alamat FROM data_siswa";
+    $alamat = $conn->query($query3);
+
+    $query4 = "SELECT DISTINCT dusun FROM data_siswa";
+    $dusun = $conn->query($query4);
+
+    $query5 = "SELECT DISTINCT desa FROM data_siswa";
+    $desa = $conn->query($query5);
+
+    $query6 = "SELECT DISTINCT kecamatan FROM data_siswa";
+    $kecamatan = $conn->query($query6);
+
+    $query7 = "SELECT DISTINCT kabupaten FROM data_siswa";
+    $kabupaten = $conn->query($query7);
+
+    $query8 = "SELECT DISTINCT provinsi FROM data_siswa";
+    $provinsi = $conn->query($query8);
+
+    $query9 = "SELECT DISTINCT domisili FROM data_siswa";
+    $domisili = $conn->query($query9);
 }
 ?>
 <div class="content">
@@ -100,7 +127,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="asal_sekolah" class="col-sm-3 col-form-label">ASAL SEKOLAH : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-9">
-                            <input class="form-control" value="<?= $siswa['asal_sekolah'] ?>" type="text" id="asal_sekolah" name="asal_sekolah" placeholder="ASAL SEKOLAH" required>
+                            <input list="sekolah" class="form-control" value="<?= $siswa['asal_sekolah'] ?>" type="text" id="asal_sekolah" name="asal_sekolah" placeholder="ASAL SEKOLAH" required>
+                            <datalist id="sekolah">
+                                <?php while ($se = $sekolah->fetch()) :  ?>
+                                    <option value="<?= $se['asal_sekolah']; ?>"><?= $se['asal_sekolah']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -125,7 +157,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="tempat_lahir" class="col-sm-3 col-form-label">TEMPAT LAHIR : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-9">
-                            <input class="form-control" type="text" value="<?= $siswa['tempat_lahir'] ?>" id="tempat_lahir" name="tempat_lahir" placeholder="TEMPAT LAHIR" required>
+                            <input list="tempat" class="form-control" type="text" value="<?= $siswa['tempat_lahir'] ?>" id="tempat_lahir" name="tempat_lahir" placeholder="TEMPAT LAHIR" required>
+                            <datalist id="tempat">
+                                <?php while ($te = $tempat->fetch()) : ?>
+                                    <option value="<?= $te['tempat_lahir']; ?>"><?= $te['tempat_lahir']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -137,7 +174,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="alamat" class="col-sm-3 col-form-label">ALAMAT : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-9">
-                            <input class="form-control" type="text" id="alamat" name="alamat" value="<?= $siswa['alamat'] ?>" placeholder="NAMA JALAN / DUSUN" required>
+                            <input class="form-control" list="alamatsiswa" type="text" id="alamat" name="alamat" value="<?= $siswa['alamat'] ?>" placeholder="NAMA JALAN / DUSUN" required>
+                            <datalist id="alamatsiswa">
+                                <?php while ($al = $alamat->fetch()) : ?>
+                                    <option value="<?= $al['alamat']; ?>"><?= $al['alamat']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -153,17 +195,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="dusun" class="col-sm-3">DUSUN :</label>
                         <div class="col-sm-3">
-                            <input type="text" id="dusun" class="form-control" value="<?= $siswa['dusun'] ?>" placeholder="NAMA DUSUN" name="dusun">
+                            <input type="text" list="listdusun" id="dusun" class="form-control" value="<?= $siswa['dusun'] ?>" placeholder="NAMA DUSUN" name="dusun">
+                            <datalist id="listdusun">
+                                <?php while ($dsn = $dusun->fetch()) : ?>
+                                    <option value="<?= $dsn['dusun']; ?>"><?= $dsn['dusun']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                         <label for="desa" class="col-sm-1">DESA :</label>
                         <div class="col-sm-5">
-                            <input type="text" id="desa" class="form-control" value="<?= $siswa['desa'] ?>" placeholder="NAMA DESA" name="desa">
+                            <input type="text" list="listdesa" id="desa" class="form-control" value="<?= $siswa['desa'] ?>" placeholder="NAMA DESA" name="desa">
+                            <datalist id="listdesa">
+                                <?php while ($ds = $desa->fetch()) : ?>
+                                    <option value="<?= $ds['desa']; ?>"><?= $ds['desa']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="kecamatan" class="col-sm-3">KECAMATAN : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-3">
-                            <input type="text" id="kecamatan" value="<?= $siswa['kecamatan'] ?>" class="form-control" placeholder="NAMA KECAMATAN" name="kecamatan" required>
+                            <input type="text" list="listkecamatan" id="kecamatan" value="<?= $siswa['kecamatan'] ?>" class="form-control" placeholder="NAMA KECAMATAN" name="kecamatan" required>
+                            <datalist id="listkecamatan">
+                                <?php while ($ke = $kecamatan->fetch()) :  ?>
+                                    <option value="<?= $ke['kecamatan']; ?>"><?= $ke['kecamatan']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                         <!-- <label for="kabupaten" class="col-sm-2">KABUPATEN :</label>
                     <div class="col-sm-4">
@@ -177,13 +234,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     </div> -->
                         <label for="kabupaten" class="col-sm-3">KABUPATEN : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-3">
-                            <input type="text" id="kabupaten" value="<?= $siswa['kabupaten'] ?>" class="form-control" placeholder="NAMA KABUPATEN" name="kabupaten" required>
+                            <input type="text" list="listkabupaten" id="kabupaten" value="<?= $siswa['kabupaten'] ?>" class="form-control" placeholder="NAMA KABUPATEN" name="kabupaten" required>
+                            <datalist id="listkabupaten">
+                                <?php while ($kb = $kabupaten->fetch()) :  ?>
+                                    <option value="<?= $kb['kabupaten']; ?>"><?= $kb['kabupaten']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="provinsi" class="col-sm-3">PROVINSI : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-3">
-                            <input type="text" id="provinsi" class="form-control" value="<?= $siswa['provinsi'] ?>" placeholder="NAMA PROVINSI" name="provinsi" required>
+                            <input type="text" list="listprov" id="provinsi" class="form-control" value="<?= $siswa['provinsi'] ?>" placeholder="NAMA PROVINSI" name="provinsi" required>
+                            <datalist id="listprov">
+                                <?php while ($pr = $provinsi->fetch()) :  ?>
+                                    <option value="<?= $pr['provinsi']; ?>"><?= $pr['provinsi']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                         <!-- <label for="kabupaten" class="col-sm-2">KABUPATEN :</label>
                     <div class="col-sm-4">
@@ -233,7 +300,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="domisili" class="col-sm-3 col-form-label">TEMPAT TINGGAL/DOMISILI : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-9">
-                            <input class="form-control" type="text" id="domisili" value="<?= $siswa['domisili'] ?>" name="domisili" placeholder="NAMA DAERAH TINGGAL" required>
+                            <input class="form-control" list="do" type="text" id="domisili" value="<?= $siswa['domisili'] ?>" name="domisili" placeholder="NAMA DAERAH TINGGAL" required>
+                            <datalist id="do">
+                                <?php while ($do = $domisili->fetch()) :  ?>
+                                    <option value="<?= $do['domisili']; ?>"><?= $do['domisili']; ?></option>
+                                <?php endwhile; ?>
+                            </datalist>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -286,7 +358,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="data_ayah_alamat" class="col-sm-3 col-form-label">ALAMAT : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-9">
-                            <input class="form-control" value="<?= $ayah['alamat'] ?>" type="text" id="data_ayah_alamat" name="data_ayah_alamat" placeholder="NAMA JALAN/DUSUN" required>
+                            <input class="form-control" list="alamatsiswa" value="<?= $ayah['alamat'] ?>" type="text" id="data_ayah_alamat" name="data_ayah_alamat" placeholder="NAMA JALAN/DUSUN" required>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -307,7 +379,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="data_ayah_tempat_lahir" class="col-sm-3 col-form-label">TEMPAT LAHIR : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-9">
-                            <input class="form-control" value="<?= $ayah['tempat_lahir'] ?>" type="text" id="data_ayah_tempat_lahir" name="data_ayah_tempat_lahir" placeholder="TEMPAT LAHIR" required>
+                            <input class="form-control" list="tempat" value="<?= $ayah['tempat_lahir'] ?>" type="text" id="data_ayah_tempat_lahir" name="data_ayah_tempat_lahir" placeholder="TEMPAT LAHIR" required>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -379,7 +451,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="data_ibu_alamat" class="col-sm-3 col-form-label">ALAMAT : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-9">
-                            <input class="form-control" value="<?= $ibu['alamat'] ?>" type="text" id="data_ibu_alamat" name="data_ibu_alamat" placeholder="NAMA JALAN/DUSUN" required>
+                            <input class="form-control" list="alamatsiswa" value="<?= $ibu['alamat'] ?>" type="text" id="data_ibu_alamat" name="data_ibu_alamat" placeholder="NAMA JALAN/DUSUN" required>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -400,7 +472,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="data_ibu_tempat_lahir" class="col-sm-3 col-form-label">TEMPAT LAHIR : <span style="color:red;"><strong>*</strong></span></label>
                         <div class="col-sm-9">
-                            <input class="form-control" value="<?= $ibu['tempat_lahir'] ?>" type="text" id="data_ibu_tempat_lahir" name="data_ibu_tempat_lahir" placeholder="TEMPAT LAHIR" required>
+                            <input class="form-control" list="tempat" value="<?= $ibu['tempat_lahir'] ?>" type="text" id="data_ibu_tempat_lahir" name="data_ibu_tempat_lahir" placeholder="TEMPAT LAHIR" required>
                         </div>
                     </div>
                     <div class="form-group row">
@@ -472,7 +544,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="data_wali_alamat" class="col-sm-3 col-form-label">ALAMAT :</label>
                         <div class="col-sm-9">
-                            <input class="form-control" value="<?= $wali['alamat'] ?>" type="text" id="data_wali_alamat" name="data_wali_alamat" placeholder="NAMA JALAN/DUSUN">
+                            <input class="form-control" list="alamatsiswa" value="<?= $wali['alamat'] ?>" type="text" id="data_wali_alamat" name="data_wali_alamat" placeholder="NAMA JALAN/DUSUN">
                         </div>
                     </div>
                     <div class="form-group row">
@@ -493,7 +565,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
                     <div class="form-group row">
                         <label for="data_wali_tempat_lahir" class="col-sm-3 col-form-label">TEMPAT LAHIR :</label>
                         <div class="col-sm-9">
-                            <input class="form-control" value="<?= $wali['tempat_lahir'] ?>" type="text" id="data_wali_tempat_lahir" name="data_wali_tempat_lahir" placeholder="TEMPAT LAHIR">
+                            <input class="form-control" list="tempat" value="<?= $wali['tempat_lahir'] ?>" type="text" id="data_wali_tempat_lahir" name="data_wali_tempat_lahir" placeholder="TEMPAT LAHIR">
                         </div>
                     </div>
                     <div class="form-group row">
