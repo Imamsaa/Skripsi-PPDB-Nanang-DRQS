@@ -1,0 +1,492 @@
+[22-Nov-2022 17:20:59 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:20:59 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:20:59 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:20:59 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:08 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:08 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:08 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:08 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:11 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:11 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:11 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:11 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:11 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:21:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:21:18 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:18 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:18 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:18 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:18 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/keputusan.php on line 23
+[22-Nov-2022 17:21:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/keputusan.php:23
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(268): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/keputusan.php on line 23
+[22-Nov-2022 17:21:20 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:20 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:20 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:20 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:20 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:21:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:21:22 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:22 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:22 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:22 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:22 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:21:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:21:28 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:28 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:28 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:28 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:28 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:21:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:21:30 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:30 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:30 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:30 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:38 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:38 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:38 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:38 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:38 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:21:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:21:47 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:47 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:47 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:47 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:51 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:51 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:51 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:51 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:51 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:21:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:21:57 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:21:57 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:21:57 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:21:57 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:21:57 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:21:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:22:04 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:22:04 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:22:04 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:22:04 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:22:04 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:22:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:22:56 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:22:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:23:09 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:23:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:23:12 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:23:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:23:16 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/daftarulang.php on line 22
+[22-Nov-2022 17:23:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/daftarulang.php:22
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(270): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/daftarulang.php on line 22
+[22-Nov-2022 17:23:26 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:23:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:25:14 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:25:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:25:18 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:25:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:25:26 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:25:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:25:32 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:25:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:25:46 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/keputusan.php on line 23
+[22-Nov-2022 17:25:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/keputusan.php:23
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(268): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/keputusan.php on line 23
+[22-Nov-2022 17:25:48 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:25:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:25:57 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:25:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:28:59 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:28:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:29:09 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:29:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:29:18 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/keputusan.php on line 23
+[22-Nov-2022 17:29:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/keputusan.php:23
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(268): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/keputusan.php on line 23
+[22-Nov-2022 17:29:48 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:29:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:31:49 UTC] PHP Warning:  require_once(\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:31:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:31:55 UTC] PHP Warning:  require_once(\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:31:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:33:50 UTC] PHP Warning:  require_once(\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:33:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:33:52 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:33:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:33:58 UTC] PHP Warning:  require_once(\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:33:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:34:52 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:34:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:35:02 UTC] PHP Warning:  require_once(\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:35:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '\config\config.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:39:43 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:39:43 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:39:43 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:39:43 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:39:43 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:39:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:39:47 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:39:47 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:39:47 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:39:47 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:39:47 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:39:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:39:48 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:39:48 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:39:48 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:39:48 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:39:48 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:39:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:39:51 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:39:51 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:39:51 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:39:51 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:39:51 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:39:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:46:15 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:46:15 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:46:15 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:46:15 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:46:15 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:46:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/pembayaran.php:25
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(262): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/pembayaran.php on line 25
+[22-Nov-2022 17:46:20 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:46:20 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:46:20 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:46:20 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:46:20 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:46:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:46:21 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:46:21 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:46:21 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:46:21 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:46:21 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:46:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:46:23 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:46:23 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:46:23 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:46:23 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:46:23 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:46:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/data.php:38
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(266): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/data.php on line 38
+[22-Nov-2022 17:46:39 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:46:39 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:46:39 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:46:39 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:46:39 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:46:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/verifikasi.php:21
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(264): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/verifikasi.php on line 21
+[22-Nov-2022 17:46:42 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:46:42 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:46:42 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:46:42 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:46:42 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/daftarulang.php on line 22
+[22-Nov-2022 17:46:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/daftarulang.php:22
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(270): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/daftarulang.php on line 22
+[22-Nov-2022 17:46:46 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 59
+[22-Nov-2022 17:46:46 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 80
+[22-Nov-2022 17:46:46 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 103
+[22-Nov-2022 17:46:46 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/admin/config/curd.php on line 131
+[22-Nov-2022 17:46:46 UTC] PHP Warning:  require_once(/home/binains1/public_html/latihan/admin\config\config.php): Failed to open stream: No such file or directory in /home/binains1/public_html/latihan/admin/keputusan.php on line 23
+[22-Nov-2022 17:46:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/binains1/public_html/latihan/admin\config\config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/binains1/public_html/latihan/admin/keputusan.php:23
+Stack trace:
+#0 /home/binains1/public_html/latihan/admin/index.php(268): include()
+#1 {main}
+  thrown in /home/binains1/public_html/latihan/admin/keputusan.php on line 23
+[30-Nov-2022 07:22:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/binains1/public_html/ppdb/ppdbsd/admin/config/config.php:11
+Stack trace:
+#0 /home/binains1/public_html/ppdb/ppdbsd/admin/config/config.php(11): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/binains1/public_html/ppdb/ppdbsd/admin/index.php(4): getConn()
+#2 {main}
+  thrown in /home/binains1/public_html/ppdb/ppdbsd/admin/config/config.php on line 11
+[02-Dec-2022 21:32:58 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[03-Dec-2022 01:23:22 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[04-Dec-2022 01:48:44 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[05-Dec-2022 20:55:11 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[05-Dec-2022 20:55:13 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[06-Dec-2022 03:16:09 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[06-Dec-2022 03:40:24 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[06-Dec-2022 05:36:25 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[07-Dec-2022 07:39:09 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[08-Dec-2022 07:37:46 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[08-Dec-2022 07:38:20 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[09-Dec-2022 06:26:21 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[09-Dec-2022 11:27:06 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[13-Dec-2022 05:27:56 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[13-Dec-2022 05:28:04 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[13-Dec-2022 23:09:11 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[15-Dec-2022 12:06:41 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[19-Dec-2022 03:45:00 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[19-Dec-2022 10:14:41 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 360
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 366
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 372
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 393
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 399
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 415
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 434
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 04:02:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 360
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 366
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 372
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 393
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 399
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 415
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 434
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 04:05:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 360
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 366
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 372
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 393
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 399
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 415
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 434
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 04:05:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 360
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 366
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 372
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 393
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 399
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 415
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 434
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 08:23:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 360
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 366
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 372
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 393
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 399
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 415
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 434
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[23-Dec-2022 08:25:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 360
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 366
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 372
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 393
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 399
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 415
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 434
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[24-Dec-2022 11:45:18 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 360
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 366
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 372
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 379
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 393
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 399
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 406
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 415
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 422
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 434
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[24-Dec-2022 11:50:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/admin/editdata.php on line 441
+[26-Dec-2022 03:16:28 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[26-Dec-2022 04:42:45 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[28-Dec-2022 09:14:20 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[28-Dec-2022 23:08:50 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[18-Jan-2023 00:50:14 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[27-Jan-2023 02:05:08 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[02-Feb-2023 07:33:03 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89
+[04-Feb-2023 02:14:31 UTC] PHP Warning:  Undefined array key "name" in /home/binains1/public_html/ppdb/ppdbsd/admin/home.php on line 89

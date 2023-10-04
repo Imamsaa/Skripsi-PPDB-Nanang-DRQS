@@ -1,0 +1,18 @@
+[22-Nov-2022 17:20:44 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/config/curd.php on line 58
+[22-Nov-2022 17:20:44 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/config/curd.php on line 79
+[22-Nov-2022 17:20:44 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/config/curd.php on line 102
+[22-Nov-2022 17:20:44 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/config/curd.php on line 130
+[22-Nov-2022 17:20:58 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/config/curd.php on line 58
+[22-Nov-2022 17:20:58 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $table is implicitly treated as a required parameter in /home/binains1/public_html/latihan/config/curd.php on line 79
+[22-Nov-2022 17:20:58 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $idjoin is implicitly treated as a required parameter in /home/binains1/public_html/latihan/config/curd.php on line 102
+[22-Nov-2022 17:20:58 UTC] PHP Deprecated:  Optional parameter $row declared before required parameter $insearch is implicitly treated as a required parameter in /home/binains1/public_html/latihan/config/curd.php on line 130
+[06-Dec-2022 03:27:03 UTC] PHP Warning:  Undefined variable $siswa in /home/binains1/public_html/ppdb/ppdbsd/proses/daftar.php on line 66
+[06-Dec-2022 06:00:57 UTC] PHP Warning:  Undefined variable $siswa in /home/binains1/public_html/ppdb/ppdbsd/proses/daftar.php on line 66
+[06-Dec-2022 06:01:31 UTC] PHP Warning:  Undefined variable $siswa in /home/binains1/public_html/ppdb/ppdbsd/proses/daftar.php on line 66
+[07-Dec-2022 08:24:50 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/proses/login.php on line 15
+[11-Dec-2022 06:39:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/proses/login.php on line 15
+[21-Dec-2022 00:31:46 UTC] PHP Warning:  Undefined variable $siswa in /home/binains1/public_html/ppdb/ppdbsd/proses/daftar.php on line 66
+[21-Dec-2022 05:14:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/binains1/public_html/ppdb/ppdbsd/proses/login.php on line 15
+[24-Dec-2022 14:47:26 UTC] PHP Warning:  Undefined variable $siswa in /home/binains1/public_html/ppdb/ppdbsd/proses/daftar.php on line 66
+[24-Dec-2022 14:48:47 UTC] PHP Warning:  Undefined variable $siswa in /home/binains1/public_html/ppdb/ppdbsd/proses/daftar.php on line 66
+[24-Dec-2022 14:49:07 UTC] PHP Warning:  Undefined variable $siswa in /home/binains1/public_html/ppdb/ppdbsd/proses/daftar.php on line 66
